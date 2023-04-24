@@ -1,0 +1,51 @@
+.backGround{
+    background-image: url("../../images/bg_1.jpg") !important;
+    background-repeat: no-repeat !important;
+}
+.textRed{
+    color: #dc3545;
+}
+.borderRed{
+    border: 1px solid #dc3545;
+}
+.my-color{
+    color: #fac564 !important;
+}
+.my-bg{
+    background: #101315;
+}
+.page-link{
+    background-color: #101315 !important;
+    border-color: #fac564 !important;
+}
+.imgSrc{
+    display: block;
+    object-fit: cover;
+}
+@media screen and (min-width: 768px){
+    .owl-carousel.home-slider .slider-item .slider-text {
+        height: 750px;
+    }
+    .slider-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .owl-carousel.home-slider {
+    height: 750px; 
+    }
+    .owl-carousel.home-slider .slider-item {
+      height: 750px;
+     }
+    .ftco-animate{
+        height:;
+    }
+}
+@media screen and (max-width: 767px){
+    .img-fluid {
+        height:0px;
+    }
+    .slider-text{
+        padding-top: 45px;
+    }
+}
